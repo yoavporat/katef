@@ -6,7 +6,7 @@
 }
 
 .scroll {
-  height: calc(100vh - 100px);
+  height: 85vh;
   overflow-y: scroll;
 }
 
@@ -25,7 +25,5 @@
 
 .cta {
   text-decoration: underline;
-  position: fixed;
-  bottom: 0;
   height: 50px;
 }
