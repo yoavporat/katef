@@ -5,6 +5,11 @@
   gap: 8px;
 }
 
+.scroll {
+  height: calc(100vh - 100px);
+  overflow-y: scroll;
+}
+
 .heading {
   display: flex;
   flex-direction: column;
@@ -12,6 +17,18 @@
   gap: 8px;
 }
 
+.logo {
+  width: 150px;
+  height: 150px;
+  align-self: center;
+}
+
 .cta {
   text-decoration: underline;
+  position: fixed;
+  bottom: 0;
+}
+
+.description {
+  overflow-y: scroll;
 }
