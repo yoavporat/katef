@@ -24,7 +24,7 @@ export default function Home() {
             <h1>כתף לעוטף</h1>
             <h3>עוזרים לתושבי הדרום לשקם את הבית</h3>
           </div>
-          <section className={`${styles.description}`}>
+          <section>
             <p>
               אתם תורמים לנו רהיטים, ציוד מטבח ומכשירים חשמליים, במצב מצוין
               בלבד, ואנחנו מרכזים אותם במחסנים שלנו במושב ומתכוננים ליום שאחרי,
@@ -35,11 +35,13 @@ export default function Home() {
             <p>אנחנו החבר׳ה ממחזור מ׳ בבית ספר עמי אסף, ילידי 86</p>
           </section>
         </div>
-        <h3 className={`${styles.cta}`}>
-          <Link href="https://docs.google.com/forms/d/e/1FAIpQLSdyMJst3WVw_V8Yxzb_h3-kByOl_bqH9he4MJ8-K2hrMsUL2w/viewform">
-            אני רוצה לתת כתף!
-          </Link>
-        </h3>
+        <footer className={`${styles.cta}`}>
+          <h3>
+            <Link href="https://docs.google.com/forms/d/e/1FAIpQLSdyMJst3WVw_V8Yxzb_h3-kByOl_bqH9he4MJ8-K2hrMsUL2w/viewform">
+              אני רוצה לתת כתף!
+            </Link>
+          </h3>
+        </footer>
       </main>
     </>
   );

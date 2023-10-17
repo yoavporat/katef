@@ -27,8 +27,5 @@
   text-decoration: underline;
   position: fixed;
   bottom: 0;
-}
-
-.description {
-  overflow-y: scroll;
+  height: 50px;
 }
