@@ -1,9 +1,14 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "@/styles/Home.module.css";
-import Link from "next/link";
 
 export default function Home() {
+  const onCTAClick = () => {
+    window.open(
+      "https://docs.google.com/forms/d/e/1FAIpQLSdyMJst3WVw_V8Yxzb_h3-kByOl_bqH9he4MJ8-K2hrMsUL2w/viewform"
+    );
+  };
+
   return (
     <>
       <Head>
@@ -24,18 +29,14 @@ export default function Home() {
         </div>
         <section>
           <p>
-            אתם תורמים לנו רהיטים, ציוד מטבח ומכשירים חשמליים, במצב מצוין בלבד,
-            ואנחנו מרכזים אותם במחסנים שלנו במושב ומתכוננים ליום שאחרי, שבו נוכל
-            לעזור למי שמשקם את ביתו, ואולי נעניק שביב של התחלה קצת יותר קלה בתוך
-            כל הכאוס 🙏🏽
+            אנו מרכזים רהיטים, ציוד מטבח ומכשירים חשמליים במצב טוב. כל פריט
+            שיתרם יאחוסן במחסני המושב שלנו ויחכה למשפחות ביום שאחרי. אלו לא סתם
+            פריטים אלא תקווה ואור בדרכה החדשה של כל משפחה. יחד נוכל להקל על דרכם
+            בהתאוששות.
           </p>
-          <h3 className={`${styles.cta}`}>
-            <Link href="https://docs.google.com/forms/d/e/1FAIpQLSdyMJst3WVw_V8Yxzb_h3-kByOl_bqH9he4MJ8-K2hrMsUL2w/viewform">
-              אני רוצה לתת כתף!
-            </Link>
-          </h3>
-          <h3>מי אנחנו?</h3>
-          <p>אנחנו החבר׳ה ממחזור מ׳ בבית ספר עמי אסף, ילידי 86</p>
+          <button className={`${styles.cta}`} onClick={onCTAClick}>
+            אני רוצה לתת כתף!
+          </button>
         </section>
       </main>
     </>
