@@ -44,6 +44,11 @@ section.description {
   gap: 32px;
 }
 
+section.description button.cta {
+  color: var(--white);
+  border: solid 3px var(--white);
+}
+
 p.emoji {
   font-size: 3rem;
   align-self: center;

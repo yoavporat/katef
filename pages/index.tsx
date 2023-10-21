@@ -50,10 +50,10 @@ export default function Home() {
               <br /> יחד נוכל להקל על דרכם בהתאוששות
             </p>
           </div>
+          <button className={`${styles.cta}`} onClick={onCTAClick}>
+            אני רוצה לתרום!
+          </button>
         </section>
-        <button className={`${styles.cta}`} onClick={onCTAClick}>
-          אני רוצה לתת כתף!
-        </button>
       </main>
     </>
   );
