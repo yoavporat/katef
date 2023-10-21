@@ -17,7 +17,7 @@ export default function Home() {
       <main className={`${styles.main}`}>
         <section className={`${styles.heading}`}>
           <Image
-            src="/logoL.svg"
+            src="/logo.svg"
             alt="logo"
             className={styles.logo}
             width={100}
