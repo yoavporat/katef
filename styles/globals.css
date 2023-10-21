@@ -1,5 +1,8 @@
 :root {
-  --max-width: 400px;
+  --max-width: 500px;
+  --blue: #00a6fb;
+  --white: #f9f9f9;
+  --yellow: #ffe45e;
 }
 
 * {
@@ -18,11 +21,11 @@ body {
   max-width: var(--max-width);
   overflow-x: hidden;
   margin: 0 auto;
+  background-color: var(--white);
 }
 
 body {
   color: black;
-  padding: 8px 32px;
 }
 
 a {
@@ -37,7 +40,7 @@ section {
 h1 {
   font-size: 4rem;
   font-weight: 700;
-  margin-bottom: 1rem;
+  margin-block-end: 1rem;
 }
 
 h3 {
@@ -48,5 +51,5 @@ h3 {
 
 p {
   font-size: 1.25rem;
-  margin-bottom: 1rem;
+  margin-block-end: 1rem;
 }
