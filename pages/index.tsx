@@ -70,7 +70,7 @@ export default function Home() {
             className={`${styles.cta}`}
             onClick={() => onCTAClick("bottom")}
           >
-            אני רוצה לתרום!
+            אני רוצה לתת כתף!
           </button>
         </section>
       </main>
