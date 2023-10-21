@@ -15,9 +15,9 @@ export default function Home() {
         <title>כתף לעוטף</title>
       </Head>
       <main className={`${styles.main}`}>
-        <div className={`${styles.heading}`}>
+        <section className={`${styles.heading}`}>
           <Image
-            src="/logo.svg"
+            src="/logoL.svg"
             alt="logo"
             className={styles.logo}
             width={100}
@@ -26,17 +26,30 @@ export default function Home() {
           />
           <h1>כתף לעוטף</h1>
           <h3>עוזרים לתושבי הדרום לשקם את הבית</h3>
-        </div>
-        <section>
-          <p>
-            אנו מרכזים רהיטים, ציוד מטבח ומכשירים חשמליים במצב טוב. כל פריט
-            שיתרם יאחוסן במחסני המושב שלנו ויחכה למשפחות ביום שאחרי. אלו לא סתם
-            פריטים אלא תקווה ואור בדרכה החדשה של כל משפחה. יחד נוכל להקל על דרכם
-            בהתאוששות.
-          </p>
           <button className={`${styles.cta}`} onClick={onCTAClick}>
             אני רוצה לתת כתף!
           </button>
+        </section>
+        <section className={`${styles.description}`}>
+          <div>
+            <p className={`${styles.emoji}`}>🛋️</p>
+            <p className={`${styles.descText}`}>
+              אנחנו מרכזים רהיטים, ציוד מטבח ומכשירי חשמל במצב טוב
+            </p>
+          </div>
+          <div>
+            <p className={`${styles.emoji}`}>🚜</p>
+            <p className={`${styles.descText}`}>
+              כל פריט שיתרם יאוחסן במחסנים במושב שלנו וימתין למשפחות ביום שאחרי
+            </p>
+          </div>
+          <div>
+            <p className={`${styles.emoji}`}>🌱</p>
+            <p className={`${styles.descText}`}>
+              אלו לא סתם פריטים אלא תקווה ואור בדרכה החדשה של כל משפחה.
+              <br /> יחד נוכל להקל על דרכם בהתאוששות
+            </p>
+          </div>
         </section>
       </main>
     </>
