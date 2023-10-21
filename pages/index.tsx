@@ -51,7 +51,7 @@ export default function Home() {
             </p>
           </div>
           <button className={`${styles.cta}`} onClick={onCTAClick}>
-            אני רוצה לתרום!
+            אני רוצה לתת כתף!
           </button>
         </section>
       </main>
