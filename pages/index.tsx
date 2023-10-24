@@ -4,7 +4,7 @@ import styles from "@/styles/Home.module.css";
 import mixpanel from "mixpanel-browser";
 import { useEffect } from "react";
 
-type CTALocation = "top" | "bottom";
+type CTALocation = "top" | "bottom" | "inline";
 
 export default function Home() {
   const onCTAClick = (ctaLocation: CTALocation) => {
@@ -64,6 +64,31 @@ export default function Home() {
             <p className={`${styles.descText}`}>
               אלו לא סתם פריטים אלא תקווה ואור בדרכה החדשה של כל משפחה.
               <br /> יחד נוכל להקל על דרכם בהתאוששות
+            </p>
+          </div>
+        </section>
+        <section className={`${styles.howItWorks}`}>
+          <h2>איך זה עובד?</h2>
+          <div className={`${styles.wrapper}`}>
+            <p className={`${styles.emoji}`}>📝</p>
+            <p
+              className={`${styles.descText} ${styles.underline}`}
+              onClick={() => onCTAClick("inline")}
+            >
+              <u>אתם ממלאים את הטופס</u>, אנחנו מבטיחים לחזור אליכם מהר ככל
+              הניתן
+            </p>
+          </div>
+          <div className={`${styles.wrapper}`}>
+            <p className={`${styles.emoji}`}>📸</p>
+            <p className={`${styles.descText}`}>
+              אתם שולחים לנו תמונה של הפריטים שאתם רוצים למסור
+            </p>
+          </div>
+          <div className={`${styles.wrapper}`}>
+            <p className={`${styles.emoji}`}>🗓️</p>
+            <p className={`${styles.descText}`}>
+              אנחנו מתאמים איתכם יום ושעה לאיסוף או מסירה ישירות אלינו
             </p>
           </div>
           <button
