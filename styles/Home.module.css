@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 8px;
   height: 100vh;
 }
 
@@ -44,11 +43,6 @@ section.description {
   gap: 32px;
 }
 
-section.description button.cta {
-  color: var(--white);
-  border: solid 3px var(--white);
-}
-
 p.emoji {
   font-size: 3rem;
   align-self: center;
@@ -58,4 +52,29 @@ p.descText {
   padding: 0 8px;
   color: var(--white);
   font-size: 1.5rem;
+}
+
+section.howItWorks {
+  background-color: var(--yellow);
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 32px 24px;
+  gap: 32px;
+  color: var(--white);
+}
+
+section.howItWorks .wrapper {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+section.howItWorks .wrapper p.descText {
+  text-align: right;
+}
+
+section.howItWorks button.cta {
+  color: var(--white);
+  border: solid 3px var(--white);
 }
