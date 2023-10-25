@@ -75,7 +75,7 @@ export default function Home() {
               className={`${styles.descText} ${styles.underline}`}
               onClick={() => onCTAClick("inline")}
             >
-              <u>אתם ממלאים את הטופס</u>, אנחנו מבטיחים לחזור אליכם מהר ככל
+              אתם ממלאים את <u>הטופס</u>, אנחנו מבטיחים לחזור אליכם מהר ככל
               הניתן
             </p>
           </div>
@@ -88,7 +88,7 @@ export default function Home() {
           <div className={`${styles.wrapper}`}>
             <p className={`${styles.emoji}`}>🗓️</p>
             <p className={`${styles.descText}`}>
-              אנחנו מתאמים איתכם יום ושעה לאיסוף או מסירה ישירות אלינו
+              אנחנו מתאמים איתכם מועד לאיסוף או מסירה ישירות אלינו
             </p>
           </div>
           <button
