@@ -50,7 +50,7 @@ export default function Home() {
           <div>
             <p className={`${styles.emoji}`}>🛋️</p>
             <p className={`${styles.descText}`}>
-              אנחנו מרכזים רהיטים, ציוד מטבח ומכשירי חשמל במצב מצוין או חדש
+              אנחנו מרכזים רהיטים, ציוד מטבח ומכשירי חשמל במצב חדש בלבד
             </p>
           </div>
           <div>
