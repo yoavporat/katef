@@ -97,6 +97,14 @@ export default function Home() {
               אנחנו מתאמים איתכם מועד למסירה ישירות אלינו
             </p>
           </div>
+          <div className={`${styles.card}`}>
+            <h4>
+              אין באפשרותנו לאסוף פריטים כרגע, אנו מבקשים למסור אלינו ישירות
+              למחסן בגן חיים
+            </h4>
+            <span className={`${styles.emoji}`}>🙏</span>
+          </div>
+          <h3>ההובלה והשימוש בפריטים שאנחנו מוסרים בהתנדבות אינם באחריותינו</h3>
           <button
             className={`${styles.cta}`}
             onClick={() => onCTAClick("bottom")}

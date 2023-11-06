@@ -71,7 +71,7 @@ section.contact {
   color: var(--blue);
 }
 
-p.emoji {
+.emoji {
   font-size: 3rem;
   align-self: center;
 }
@@ -106,4 +106,20 @@ p.clickToCall a {
 .mapWrapper {
   width: 100%;
   height: 200px;
+}
+
+.card {
+  background-color: var(--blue);
+  border-radius: 32px;
+  padding: 24px;
+  margin: 16px;
+  text-align: right;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card p {
+  margin: 0 0 8px 0;
+  flex-grow: 1;
+  max-width: 75%;
 }
