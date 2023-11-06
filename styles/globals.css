@@ -3,6 +3,7 @@
   --blue: #00a6fb;
   --white: #f9f9f9;
   --yellow: #ffb703;
+  --green: #2dc653;
 }
 
 * {
@@ -54,4 +55,10 @@ h3 {
 p {
   font-size: 1.25rem;
   margin-block-end: 1rem;
+}
+
+iframe {
+  border: 0;
+  width: 100%;
+  height: 400px;
 }
