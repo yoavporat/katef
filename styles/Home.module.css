@@ -6,8 +6,6 @@
 }
 
 section.heading {
-  display: flex;
-  flex-direction: column;
   text-align: center;
   gap: 8px;
   padding: 32px 32px 0 32px;
@@ -15,6 +13,36 @@ section.heading {
 
 section.heading h3 {
   padding: 0 24px;
+}
+
+section.description {
+  background-color: var(--blue);
+  flex-grow: 1;
+  padding: 32px 24px;
+  gap: 32px;
+}
+
+section.howItWorks {
+  background-color: var(--yellow);
+  flex-grow: 1;
+  padding: 32px 24px;
+  gap: 32px;
+  color: var(--white);
+}
+
+section.howItWorks .wrapper {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+section.howItWorks .wrapper p.descText {
+  text-align: right;
+}
+
+section.howItWorks button.cta {
+  color: var(--white);
+  border: solid 3px var(--white);
 }
 
 .logo {
@@ -34,15 +62,6 @@ section.heading h3 {
   color: var(--blue);
 }
 
-section.description {
-  background-color: var(--blue);
-  flex-grow: 1;
-  display: flex;
-  flex-direction: column;
-  padding: 32px 24px;
-  gap: 32px;
-}
-
 p.emoji {
   font-size: 3rem;
   align-self: center;
@@ -54,27 +73,6 @@ p.descText {
   font-size: 1.5rem;
 }
 
-section.howItWorks {
-  background-color: var(--yellow);
-  flex-grow: 1;
-  display: flex;
-  flex-direction: column;
-  padding: 32px 24px;
-  gap: 32px;
-  color: var(--white);
-}
-
-section.howItWorks .wrapper {
-  display: flex;
-  align-items: center;
-  gap: 32px;
-}
-
-section.howItWorks .wrapper p.descText {
-  text-align: right;
-}
-
-section.howItWorks button.cta {
-  color: var(--white);
-  border: solid 3px var(--white);
+p.bold {
+  font-weight: 700;
 }
