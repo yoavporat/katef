@@ -3,6 +3,12 @@ import Image from "next/image";
 import styles from "@/styles/Home.module.css";
 import mixpanel from "mixpanel-browser";
 import { useEffect } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faFacebookF,
+  faInstagram,
+  faWaze,
+} from "@fortawesome/free-brands-svg-icons";
 
 type CTALocation = "top" | "bottom" | "inline";
 
@@ -98,6 +104,27 @@ export default function Home() {
             אני רוצה לתת כתף!
           </button>
         </section>
+        <section className={`${styles.contact}`}>
+          <h2>הצטרפו אלינו!</h2>
+          <h3>
+            אנחנו מחפשים מתנדבים להובלות, העמסות, פריקות, ניהול מחסן וניהול חמ״ל
+          </h3>
+          <p className={`${styles.clickToCall}`}>
+            דברו עם שיר
+            <br />
+            <a href="tel:0505902260">050-590-2260</a>
+          </p>
+          <div className={`${styles.socialWrapper}`}>
+            {/* <FontAwesomeIcon icon={faFacebookF} color="#f9f9f9" width={20} /> */}
+            {/* <FontAwesomeIcon icon={faInstagram} color="#f9f9f9" width={40} /> */}
+            <a href="https://ul.waze.com/ul?preview_venue_id=22872386.228789395.404400&navigate=yes&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location">
+              <FontAwesomeIcon icon={faWaze} color="#00a6fb" width={40} />
+            </a>
+          </div>
+        </section>
+        <div className={`${styles.mapWrapper}`}>
+          <iframe src="https://www.google.com/maps/embed/v1/place?q=Harimon+Street+5,+Gan+Haim,+Israel&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8" />
+        </div>
       </main>
     </>
   );
