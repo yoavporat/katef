@@ -88,7 +88,7 @@ export default function Home() {
           <div className={`${styles.wrapper}`}>
             <p className={`${styles.emoji}`}>🗓️</p>
             <p className={`${styles.descText}`}>
-              אנחנו מתאמים איתכם מועד לאיסוף או מסירה ישירות אלינו
+              אנחנו מתאמים איתכם מועד למסירה ישירות אלינו
             </p>
           </div>
           <button
