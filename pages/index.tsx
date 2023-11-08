@@ -124,9 +124,11 @@ export default function Home() {
           </p>
           <div className={`${styles.socialWrapper}`}>
             {/* <FontAwesomeIcon icon={faFacebookF} color="#f9f9f9" width={20} /> */}
-            {/* <FontAwesomeIcon icon={faInstagram} color="#f9f9f9" width={40} /> */}
+            <a href="https://www.instagram.com/katef_laotef_/">
+              <FontAwesomeIcon icon={faInstagram} color="#f9f9f9" width={40} />
+            </a>
             <a href="https://ul.waze.com/ul?preview_venue_id=22872386.228789395.404400&navigate=yes&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location">
-              <FontAwesomeIcon icon={faWaze} color="#00a6fb" width={40} />
+              <FontAwesomeIcon icon={faWaze} color="#f9f9f9" width={40} />
             </a>
           </div>
         </section>
