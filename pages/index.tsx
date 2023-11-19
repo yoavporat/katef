@@ -62,7 +62,7 @@ export default function Home() {
           <div>
             <p className={`${styles.emoji}`}>🚜</p>
             <p className={`${styles.descText}`}>
-              כל פריט שיתרם יאוחסן במחסנים במושב שלנו וימתין למשפחות ביום שאחרי
+              כל פריט שיתרם יאוחסן במחסנים בגן חיים וימתין למשפחות ביום שאחרי
             </p>
           </div>
           <div>
@@ -97,13 +97,6 @@ export default function Home() {
               אנחנו מתאמים איתכם מועד למסירה ישירות אלינו
             </p>
           </div>
-          <div className={`${styles.card}`}>
-            <h4>
-              אין באפשרותנו לאסוף פריטים כרגע, אנו מבקשים למסור אלינו ישירות
-              למחסן בגן חיים
-            </h4>
-            <span className={`${styles.emoji}`}>🙏</span>
-          </div>
           <h3>ההובלה והשימוש בפריטים שאנחנו מוסרים בהתנדבות אינם באחריותינו</h3>
           <button
             className={`${styles.cta}`}
@@ -114,9 +107,7 @@ export default function Home() {
         </section>
         <section className={`${styles.contact}`}>
           <h2>הצטרפו אלינו!</h2>
-          <h3>
-            אנחנו מחפשים מתנדבים להובלות, העמסות, פריקות, ניהול מחסן וניהול חמ״ל
-          </h3>
+          <h3>אנחנו מחפשים מתנדבים להובלות, העמסות ופריקות</h3>
           <p className={`${styles.clickToCall}`}>
             דברו עם שיר
             <br />
@@ -127,13 +118,13 @@ export default function Home() {
             <a href="https://www.instagram.com/katef_laotef_/">
               <FontAwesomeIcon icon={faInstagram} color="#f9f9f9" width={40} />
             </a>
-            <a href="https://ul.waze.com/ul?preview_venue_id=22872386.228789395.404400&navigate=yes&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location">
+            <a href="https://ul.waze.com/ul?place=Eh1IYS1UYW1hciBTdCwgR2FuIEhhaW0sIElzcmFlbCIuKiwKFAoSCZVr0x4COR0VEasjh6kdBtySEhQKEgmhJuT7ATkdFRE31hQcflRe0A&ll=32.19613590%2C34.90774220&navigate=yes&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location">
               <FontAwesomeIcon icon={faWaze} color="#f9f9f9" width={40} />
             </a>
           </div>
         </section>
         <div className={`${styles.mapWrapper}`}>
-          <iframe src="https://www.google.com/maps/embed/v1/place?q=Harimon+Street+5,+Gan+Haim,+Israel&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8" />
+          <iframe src="https://www.google.com/maps/embed/v1/place?q=Hatamar+Street,+Gan+Haim,+Israel&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8" />
         </div>
       </main>
     </>
