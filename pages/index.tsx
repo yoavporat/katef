@@ -48,6 +48,11 @@ export default function Home() {
           />
           <h1>כתף לעוטף</h1>
           <h3>עוזרים לתושבי הדרום לשקם את הבית</h3>
+          <p className={`${styles.clickToCall}`}>
+            מפונים, דברו ישירות עם טלי
+            <br />
+            <a href="tel:0546177801">054-6177801</a>
+          </p>
           <button className={`${styles.cta}`} onClick={() => onCTAClick("top")}>
             אני רוצה לתת כתף!
           </button>
@@ -98,6 +103,11 @@ export default function Home() {
             </p>
           </div>
           <h3>ההובלה והשימוש בפריטים שאנחנו מוסרים בהתנדבות אינם באחריותינו</h3>
+          <p className={`${styles.clickToCall}`}>
+            זמינים לתרומות גם בטלפון (אילת)
+            <br />
+            <a href="tel:0584506881">058-4506881</a>
+          </p>
           <button
             className={`${styles.cta}`}
             onClick={() => onCTAClick("bottom")}
